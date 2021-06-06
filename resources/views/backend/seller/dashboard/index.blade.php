@@ -101,6 +101,11 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-12 col-md-12">
+                <div class="card">
+                    <img src="{{ asset('assets/gif/2 (1).gif') }}" alt=""><br>
+                </div>
+            </div>
 
             <!-- Column -->
         </div>

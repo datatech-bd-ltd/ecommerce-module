@@ -133,14 +133,10 @@
                                     </div>
                                     <div class="widget-info">
                                         <p>
-                                            <i class="pe-7s-mail"></i>
-                                            <span>
-                                                    <a href="m.sakirahmed@gmail.com">m.sakirahmed@gmail.com</a>
-                                                </span>
+                                            This is best ecommerce website made by Laravel framework
                                         </p>
                                         <p>
-                                            <i class="pe-7s-call"></i>
-                                            <span>+880 1304-734623 </span>
+                                           Developer: <b>Sadia Mumu</b>
                                         </p>
                                     </div>
                                     <div class="footer-social">
