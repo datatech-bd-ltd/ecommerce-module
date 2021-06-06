@@ -81,6 +81,7 @@
                 <div class="col-md-5">
                     <div class="your-order-payment">
                         <div class="your-order">
+                            <img src="{{ asset('assets/gif/download.png') }}" height="" width="400px" alt=""><br>
                             <h2>Your Order</h2>
                             <ul>
                                 @foreach(collect(cart_items())->groupBy('id') as $products)
@@ -140,6 +141,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <img src="{{ asset('assets/gif/seven.gif') }}" height="400px" alt=""><br>
                                 </div>
                             </div>
                         </div>

@@ -9,11 +9,21 @@
                         <div class="login-title">
                             <h4>login</h4>
                             <p>Please login using account detail bellow.</p>
-                            <p class="text-danger">
-                                For admin login: <br>
-                                admin@gmail.com <br>
-                                password
-                            </p>
+                            <div class="row">
+                                <div class="col-md-6"> <p class="text-danger">
+                                        <b>For admin login:</b> <br>
+                                        admin@gmail.com <br>
+                                        password
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-danger">
+                                       <b> For seller login:</b> <br>
+                                        seller@gmail.com <br>
+                                        password
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div class="login-form">
                             <form action="{{ route('login') }}" method="post">

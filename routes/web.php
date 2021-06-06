@@ -38,9 +38,13 @@ Route::group(['middleware' => ['seller', 'auth'], 'prefix' => 'seller/', 'as' =>
 });
 
 Route::get('/dashboard', function(){
-    if (auth()->user()->type == 'Admin')
+    if (auth()->user()->type == 'Admin'){
         return redirect()->route('admin.dashboard');
-    return redirect()->route('index');
+    }else if(auth()->user()->type == 'Seller'){
+        return redirect()->route('seller.dashboard');
+    }else{
+        return redirect()->route('index');
+    }
 });
 
 require __DIR__.'/auth.php';

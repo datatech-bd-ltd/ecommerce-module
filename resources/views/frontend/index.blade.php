@@ -4,6 +4,7 @@
     <div class="portfolio-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center mb-50">
+                <img src="{{ asset('assets/gif/eight.gif') }}" height="300px" alt=""><br>
                 <h2>Products <i class="fa fa-shopping-cart"></i></h2>
             </div>
             <div class="row portfolio-style-2">
@@ -46,6 +47,11 @@
                             </div>
                         </div>
                     @endforeach
+                </div>
+            </div>
+            <div class="row portfolio-style-2">
+                <div class="col-md-12">
+                    <img src="{{ asset('assets/gif/2.gif') }}" width="100%;" alt="">
                 </div>
             </div>
         </div>

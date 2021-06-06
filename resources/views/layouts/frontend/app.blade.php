@@ -76,10 +76,10 @@
                                                     <a href="{{ url('/') }}">home</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://documenter.getpostman.com/view/11483227/TzXwExmU" target="_blank">API Documentation</a>
+                                                    <a href="#" target="_blank">API Documentation</a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://github.com/mdsakirahmed/interview-task" target="_blank">GitHub</a>
+                                                    <a href="#" target="_blank">GitHub</a>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -145,10 +145,10 @@
                                     </div>
                                     <div class="footer-social">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/DeveloperSakir/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/mdsakirahmed/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://www.instagram.com/sakir.dev/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a href="https://github.com/mdsakirahmed" target="_blank"><i class="fa fa-github"></i></a></li>
+                                            <li><a href="https://www.facebook.com/sadia.mumu.33" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -199,8 +199,8 @@
                                     </div>
                                     <div class="widget-text">
                                         <ul>
-                                            <li><a href="https://documenter.getpostman.com/view/11483227/TzXwExmU" target="_blank">API Collection </a></li>
-                                            <li><a href="https://github.com/mdsakirahmed/interview-task" target="_blank">GitHub </a></li>
+                                            <li><a href="#" target="_blank">API Collection </a></li>
+                                            <li><a href="#" target="_blank">GitHub </a></li>
 
                                         </ul>
                                     </div>
@@ -214,7 +214,7 @@
                                 <div class="copyright">
                                     <p>
                                         Copyright © {{ date('Y') }}
-                                        <a href="https://sakir.dev/" target="_blank"> <b>SAKIR</b> </a>
+                                        <a href="javascript:0" target="_blank"> <b>Sadia Mumu</b> </a>
                                          All Rights Reserved.
                                     </p>
                                 </div>
