@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--  Essential META Tags -->
-    <meta content="author" name="MD. SAKIR AHMED">
-    <meta content="keywords" name="sakir, ecommerce, api, developer">
-    <meta property="og:title" content="MD. SAKIR AHMED">
-    <meta property="og:description" content="Software Engineer | +880 1304-734623">
-    <meta property="og:image" content="{{ asset('uploads/images/sakir-meta-image.png') }}">
+    <meta content="author" name="Sadia Mumu">
+    <meta content="keywords" name="sSadia Mumu">
+    <meta property="og:title" content="Sadia Mumu">
+    <meta property="og:description" content="Sadia Mumu | Versity project">
+    <meta property="og:image" content="">
     <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:type" content="website"/>
     <!-- Favicon -->
