@@ -48,6 +48,11 @@
                         <i class="far fa-circle text-success"></i><span class="hide-menu">Orders</span>
                     </a>
                 </li>
+                    <li>
+                        <a class="waves-effect waves-dark bg-danger text-white" href="{{ route('admin.report') }}">
+                            <i class="far fa-circle text-success"></i><span class="hide-menu">Report & Chart</span>
+                        </a>
+                    </li>
                 @endif
                     @if(auth()->user()->type == 'Seller')
                         <li>

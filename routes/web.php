@@ -28,6 +28,7 @@ Route::group(['middleware' => ['admin', 'auth'], 'prefix' => 'backend/', 'as' =>
     Route::get('/dashboard', [Admin\DashboardController::class, 'index'])->name('dashboard');
     Route::resource('products', Admin\ProductController::class);
     Route::resource('orders', Admin\OrderController::class);
+    Route::get('/reports', [Admin\ReportController::class, 'index'])->name('report');
 });
 
 //Seller Routes
